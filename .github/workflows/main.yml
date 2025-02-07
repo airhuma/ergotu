@@ -1,9 +1,9 @@
-name: Redeploy Choreo
+name: Redeploy
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '*/30 * * * *'
 
 jobs:
   Redeploy:
