@@ -4,8 +4,8 @@ const intervalInMilliseconds = process.env.TIME || 2 * 60 * 1000;   // 自动访
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';      // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                // 哪吒端口为443时开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'vercel.zgws.gay';                  // 固定隧道域名，留空即启用临时隧道
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"2f4dc092cfcc36e039b4c273a2846c50","TunnelSecret":"lFFh7T6Fi0DjNwLlRaJM6B1MO/Zdpcd0fw4mthyrJKs=","TunnelID":"89eaa815-13ab-4cef-ac7b-ec8d247fe656"}';                      // 固定隧道json或token，留空即启用临时隧道
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';                  // 固定隧道域名，留空即启用临时隧道
+const ARGO_AUTH = process.env.ARGO_AUTH || '';                      // 固定隧道json或token，留空即启用临时隧道
 const port = process.env.PORT || 3000;
 const CFIP = process.env.CFIP || 'government.se';
 const NAME = process.env.NAME || 'ABCD';
